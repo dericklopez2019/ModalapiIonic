@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>nueva</ion-title>
+    <ion-buttons  slot="start">
+      <ion-back-button defaultHref="/" text="Regresar" color="primary" ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">nueva</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button color="secondary" (click)="presentAlert()" >Alert</ion-button>
+  <ion-button color="secondary" (click)="presentAlert2()" >Alert2</ion-button>
+  <ion-button (click)="modal()">Abrir Modal</ion-button>
+
+
+</ion-content>
